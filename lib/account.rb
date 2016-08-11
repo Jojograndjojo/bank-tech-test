@@ -1,4 +1,4 @@
-class Safe
+class Account
   attr_reader :balance
 
   DEFAULT_BALANCE = 0
@@ -10,5 +10,5 @@ class Safe
   def transfer_funds(ammount)
     @balance += ammount
   end
-  
+
 end
